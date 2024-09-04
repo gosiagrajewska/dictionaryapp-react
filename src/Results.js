@@ -3,6 +3,7 @@ import Meaning from "./Meaning";
 import "./Results.css";
 export default function Results(props) {
   if (props.results) {
+    console.log(props.results);
     return (
       <div className="results">
         <h2>{props.results.word}</h2>
