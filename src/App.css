@@ -1,3 +1,10 @@
+:root {
+  --primary-color: #f4eeff;
+  --secondary-color: #dcd6f7;
+  --third-color: #a6b1e1;
+  --fourth-color: #424874;
+}
+
 .App-header {
   text-align: center;
   font-size: 48px;
@@ -6,4 +13,12 @@
 .App-footer {
   text-align: center;
   margin: 30px 0;
+}
+
+body {
+  background-color: var(--secondary-color);
+}
+a {
+  color: var(--fourth-color);
+  text-decoration: none;
 }

@@ -1,7 +1,25 @@
-.dictionary {
-  text-align: center;
+.dictionary input {
+  width: 100%;
+  padding: 6px 4px;
+  border-radius: 6px;
+  border: 1px solid var(--fourth-color);
+  color: var(--fourth-color);
 }
 
-.dictionary form {
-  margin: 30px;
+.dictionary section {
+  background-color: var(--primary-color);
+  padding: 30px;
+  margin: 10px;
+  border-radius: 8px;
+  box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.2);
+}
+.dictionary .hint {
+  font-size: 11px;
+  margin-top: 5px;
+  color: var(--third-color);
+}
+
+.dictionary h5 {
+  font-size: 15px;
+  font-weight: 400;
 }
