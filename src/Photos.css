@@ -7,3 +7,7 @@
 .photos img:hover {
   transform: scale(1.5);
 }
+
+.photos a {
+  opacity: 1;
+}
